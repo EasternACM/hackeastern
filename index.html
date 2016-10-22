@@ -3,40 +3,35 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Cover Template for Bootstrap</title>
+    <meta name="description" content="Eastern Michigan Hackathon">
+    <meta name="author" content="Zachary Collins">
+    <title> Hack Eastern </title>
 
     <!-- Bootstrap core CSS -->
     <link href="./public/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Styles    -->
     <link href="./public/css/style.css" rel="stylesheet">
+
+    <!-- Vidojs -->
+    <link href="http://vjs.zencdn.net/5.11.8/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
   </head>
 
   <body>
-    <!-- Youtube video container -->
     <div class="video-background">
       <div class="video-foreground">
-        <!-- <iframe id="ytplayer" type="text/html" width="1280" height="720" src="https://www.youtube.com/embed/XVm9X-OfKVM?autoplay=1&controls=0&enablejsapi=1&fs=0&loop=1&rel=0&showinfo=0&autohide=1?vq=hd720" frameborder="0" allowfullscreen> -->
-        <div id="player"></div>
-
-      </div>
-    </div>
-
-    <!-- Youtube content -->
-    <div id="vidtop-content">
-      <div class="vid-info">
-      	  <h1>YouTube Fullscreen Background Demo</h1>
-      	  <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
-           <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
-      	 <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
+        <video id="video-bg" class="video-js vjs-16-9 vjs-default-skin" preload="auto" width="1280" height="720" data-setup="{}" muted autoplay loop>
+            <source src="public/media/videos/video-bg.webm#t=36" type="video/webm">
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a web browser that
+              <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
       </div>
     </div>
   </body>
 
-  <!-- The youtube player background script -->
-  <script src="public/js/youtubeplayer.js"></script>
+  <script src="http://vjs.zencdn.net/5.11.8/video.js"></script>
 </html>
