@@ -145,13 +145,14 @@ header .header-text {
 }
 
 header .typed {
-	display: inline-block;
+	display: block;
 	margin: 0;
 }
 
 header .typed-cursor {
-	font-size: 60px;
-	display: inline-block;
+	display: none;
+	font-size: 30px;
+	/*display: inline-block;*/
 	margin: 0 10px;
 	color: white;
 	-webkit-animation-name: flash;
