@@ -62,7 +62,6 @@ h1 {
 		font-weight: 300;
 }
 
-
 h2,
 h3,
 h4,
@@ -123,8 +122,8 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg');
+	background: black;
+	background-image: radial-gradient(circle, #54ffe2 0%, #5c0889 70%, #000000 100%);
 	background-size: cover;
 }
 
