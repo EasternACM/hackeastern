@@ -1,11 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 body {
-	font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', 'Open Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	overflow-x: hidden;
 	color: #2a3237;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.no-flow {
+	overflow: hidden;
 }
 
 .parallax {
@@ -52,13 +55,20 @@ p {
 	color: #8a8e91;
 }
 
-h1,
+h1 {
+		font-family: 'Raleway', 'Open Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
+		position: relative;
+		margin: 10px 0;
+		font-weight: 300;
+}
+
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', 'Open Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
 	position: relative;
 	margin: 10px 0;
 }
